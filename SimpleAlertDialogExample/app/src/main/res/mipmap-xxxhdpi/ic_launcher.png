@@ -1,0 +1,245 @@
+import 'dart:convert';
+
+import 'package:connectivity/connectivity.dart';
+import 'package:flutter/material.dart';
+import 'package:salezz/UI/Visit/Model/RescheduleModel.dart';
+import 'package:salezz/UI/Visit/Model/VisitModel.dart';
+import 'package:salezz/UI/Visit/VisitRow.dart';
+import 'package:salezz/commonComponents/MyNavigator.dart';
+import 'package:http/http.dart' as http;
+import 'package:salezz/commonComponents/genaralHelper.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
+import '../../Const.dart';
+import 'RescheduleRow.dart';
+
+// ignore: must_be_immutable
+class MyVisit extends StatefulWidget {
+  @override
+  _MyVisitState createState() => new _MyVisitState();
+}
+
+class _MyVisitState extends State<MyVisit> {
+  final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
+  List<Visits> _myVisits = [];
+  List<RescheduleDetails> _upcomingVisits = [];
+  String u_id;
+  SharedPreferences sharedPreferences;
+  GeneralHelper generalHelper = new GeneralHelper();
+
+  //for search
+  TextEditingController editingController = TextEditingController();
+
+  var duplicateItems ;
+  var items = List<Visits>();
+
+
+  @override
+  initState() {
+    super.initState();
+    getData();
+//    noAuthPostMethodForVisits("http://salez.cryptappz.com/api/salesman/business_approach_visit/2");
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return
+      DefaultTabController(
+          length: 2,
+          child: Scaffold(
+            backgroundColor: Colors.white,
+            appBar: TabBar(
+              indicatorColor: Colors.redAccent,
+                labelColor: Colors.white,
+                unselectedLabelColor: Colors.redAccent,
+                indicatorSize: TabBarIndicatorSize.label,
+                indicator: BoxDecoration(
+                    borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(10),
+                        topRight: Radius.circular(10),
+                    bottomLeft: Radius.circular(10),
+                bottomRight:  Radius.circular(10)),
+                    color: Colors.redAccent),
+                tabs: [
+                  Tab(
+                    child: Align(
+                      alignment: Alignment.center,
+                      child: Text("Upcoming"),
+                    ),
+                  ),
+                  Tab(
+                    child: Align(
+                      alignment: Alignment.center,
+                      child: Text("COMPLETED"),
+                    ),
+                  ),
+                ]
+            ),
+            body: TabBarView(children: [
+              Container(
+                child: Scaffold(
+                  body: SafeArea(
+                    child: ListView.builder(
+                      itemCount: _upcomingVisits == null ? 0 : _upcomingVisits.length,
+                      itemBuilder: (BuildContext context, int index) {
+                        return _upcomingVisits.length > 0
+                            ? RescheduleRow(visits: _upcomingVisits[index], context: context)
+                            : Center(child: Text('No Items'));
+                      },
+                    ),
+                  ),
+                  floatingActionButton: FloatingActionButton.extended(
+                    onPressed: () {
+                      // Add your onPressed code here!
+                      MyNavigator.goToNewVisit(context);
+                    },
+                    icon: Icon(Icons.add),
+                    label: Text("Visit"),
+                    backgroundColor: Colors.green,
+                  ),
+                ),
+
+              ),
+              Container(
+                child: Scaffold(
+                  body: SafeArea(
+                    child:
+                    Column(
+                      children: <Widget>[
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: TextField(
+                            onChanged: (value) {
+                              filterSearchResults(value);
+                            },
+                            controller: editingController,
+                            decoration: InputDecoration(
+                                labelText: "Search",
+                                hintText: "Search",
+                                prefixIcon: Icon(Icons.search),
+                                border: OutlineInputBorder(
+                                    borderRadius: BorderRadius.all(Radius.circular(25.0)))),
+                          ),
+                        ),
+                        Expanded(
+                          child: ListView.builder(
+                            shrinkWrap: true,
+                            itemCount: _myVisits.length,
+                            itemBuilder: (context, index) {
+                              return VisitRow(visits: _myVisits[index], context: context);
+                            },
+                          ),
+                        ),
+                      ],
+                    ),
+
+                   /* ListView.builder(
+                      itemCount: _myVisits == null ? 0 : _myVisits.length,
+                      itemBuilder: (BuildContext context, int index) {
+                        return _myVisits.length > 0
+                            ? VisitRow(visits: _myVisits[index], context: context)
+                            : Center(child: Text('No Items'));
+                      },
+                    ),*/
+                  ),
+                  floatingActionButton: FloatingActionButton.extended(
+                    onPressed: () {
+                      // Add your onPressed code here!
+                      MyNavigator.goToNewVisit(context);
+                    },
+                    icon: Icon(Icons.add),
+                    label: Text("Visit"),
+                    backgroundColor: Colors.green,
+                  ),
+                ),
+
+              ),
+             /*  Column(
+                children: <Widget>[
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: TextField(
+                      onChanged: (value) {
+                        filterSearchResults(value);
+                      },
+                      controller: editingController,
+                      decoration: InputDecoration(
+                          labelText: "Search",
+                          hintText: "Search",
+                          prefixIcon: Icon(Icons.search),
+                          border: OutlineInputBorder(
+                              borderRadius: BorderRadius.all(Radius.circular(25.0)))),
+                    ),
+                  ),
+                  Expanded(
+                    child: ListView.builder(
+                      shrinkWrap: true,
+                      itemCount: items.length,
+                      itemBuilder: (context, index) {
+                        return ListTile(
+                          title: Text('${items[index]}'),
+                        );
+                      },
+                    ),
+                  ),
+                ],
+              ),*/
+
+            ]),
+          )
+      );}
+
+  void filterSearchResults(String query) {
+    List<Visits> dummySearchList = List<Visits>();
+    dummySearchList.addAll(duplicateItems);
+    if(query.isNotEmpty) {
+      print(dummySearchList);
+      List<Visits> dummyListData = List<Visits>();
+      dummySearchList.forEach((item) {
+        if(item.customerName.contains(query)) {
+          dummyListData.add(item);
+        }
+      });
+      setState(() {
+        items.clear();
+        items.addAll(dummyListData);
+      });
+      return;
+    } else {
+      setState(() {
+        items.clear();
+        items.addAll(duplicateItems);
+      });
+    }
+
+  }
+
+  void getData() async {
+    sharedPreferences = await SharedPreferences.getInstance();
+    String u_ids = sharedPreferences.getString(Const.person_id);
+    setState(() {
+      u_id = u_ids;
+    });
+    noAuthPostMethodForVisits(Const.base_url + u_id + Const.visit_list);
+
+    noAuthPostMethodForUpcomingVisits(Const.base_url + u_id + Const.reschedule_list);
+    
+  }
+
+  noAuthPostMethodForVisits(String url) async {
+//    String requestUrl =Const.base_url+Const.customers;
+    var connectivityResult = await (Connectivity().checkConnectivity());
+    if (connectivityResult == ConnectivityResult.none) {
+      _scaffoldKey.currentState.showSnackBar(SnackBar(
+        backgroundColor: Color(0xffc00e34),
+        content: Text('No data available'),
+        duration: Duration(seconds: 3),
+      ));
+//      Toast.show("Please check internet connection",context,duration: Toast.LENGTH_LONG, gravity:  Toast.TOP,);
+    } else {
+      try {
+        //print url for test
+        final response = await http.get(url);
+        if (response.statusCode == 200) {
+//          print("response $response");
+          final responseJso

@@ -1,0 +1,10 @@
+//
+//  Generated file. Do not edit.
+//
+
+#import "GeneratedPluginRegistrant.h"
+
+#if __has_include(<connectivity/FLTConnectivityPlugin.h>)
+#import <connectivity/FLTConnectivityPlugin.h>
+#else
+@import connectivi

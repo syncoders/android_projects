@@ -1,0 +1,4 @@
+#Wed Jun 19 22:31:49 IST 2019
+base.0=D\:\\Blog Projects\\ToastExample\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

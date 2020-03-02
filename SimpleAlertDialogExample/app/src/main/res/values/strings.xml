@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SimpleAlertDialogExample</string>
+    <string name="dialog_message">This is a alert dialog for Syncoders Tutorial example</string>
+    <string name="dialog_title"> Alert Dialog </string>
+</resources>
+
