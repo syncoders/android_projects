@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\7b71bd23f385b19168d368849a473c41\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\b84bae127d8f07a163048f577d25965c\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\47713dabf9771f7f499549a237345f90\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\1bb81c1333b5c8e60c3dbdcac19d4692\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\9df9ad2906cc1e31d9f08fbb7b53b22d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\18476527045315190c0e68be3e0ba49e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\f5b89591ab757c29c6cc56f0642b3e78\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\8c5344d18b6a99e32e796151db122463\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\167527b36c6bf5f3c8a63267940ba6f5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\6b2b2648ddb448c4f7daa4d2a0feaae5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\cdb78ec97c055d5c7079619e16f33aa0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\039d156ee517c2d84386003475bd08c0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\365612d01fd3586d9b892810d93a3468\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\d86a6a76c7847b6cfb4ba4ee67f3ba62\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\5add2045deb0158161bf7c587f16e904\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\501193c0f83e24a3fd423d84df18ee9e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\18d076182de1d031c7d322d77a97619c\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\0f00b9528e5034e65a3b0dc5b30ff30e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\b1f3ada2a6509bcb1a15a6c072cfc42b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\f3c57d7f6a11cffd61265c75188f564f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\ea111995f475d9e6e91c3eb60386a028\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\ea1aeacd064ecb0c62edabec22e20439\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\b807564d23edc114d343c6443f261f6f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\d284be7f6b9dc18953b294a857e9aac0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\b52995dfa2433c5713f8b29dca98c586\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\224aa959f863fa1ed5767aff194acd38\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\88e7a94e93fd61621a873246121bde11\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\b84bae127d8f07a163048f577d25965c\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\b84bae127d8f07a163048f577d25965c\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\501193c0f83e24a3fd423d84df18ee9e\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\501193c0f83e24a3fd423d84df18ee9e\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\18d076182de1d031c7d322d77a97619c\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\18d076182de1d031c7d322d77a97619c\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\501193c0f83e24a3fd423d84df18ee9e\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.customalertdialog.MainActivity
+ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\7b71bd23f385b19168d368849a473c41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\7b71bd23f385b19168d368849a473c41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\b84bae127d8f07a163048f577d25965c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\b84bae127d8f07a163048f577d25965c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\47713dabf9771f7f499549a237345f90\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\47713dabf9771f7f499549a237345f90\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\1bb81c1333b5c8e60c3dbdcac19d4692\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\1bb81c1333b5c8e60c3dbdcac19d4692\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\9df9ad2906cc1e31d9f08fbb7b53b22d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\9df9ad2906cc1e31d9f08fbb7b53b22d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\18476527045315190c0e68be3e0ba49e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\18476527045315190c0e68be3e0ba49e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\f5b89591ab757c29c6cc56f0642b3e78\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\f5b89591ab757c29c6cc56f0642b3e78\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\8c5344d18b6a99e32e796151db122463\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\8c5344d18b6a99e32e796151db122463\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\167527b36c6bf5f3c8a63267940ba6f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\167527b36c6bf5f3c8a63267940ba6f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\6b2b2648ddb448c4f7daa4d2a0feaae5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\6b2b2648ddb448c4f7daa4d2a0feaae5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\cdb78ec97c055d5c7079619e16f33aa0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\cdb78ec97c055d5c7079619e16f33aa0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\039d156ee517c2d84386003475bd08c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\039d156ee517c2d84386003475bd08c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\365612d01fd3586d9b892810d93a3468\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\365612d01fd3586d9b892810d93a3468\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\d86a6a76c7847b6cfb4ba4ee67f3ba62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\d86a6a76c7847b6cfb4ba4ee67f3ba62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\5add2045deb0158161bf7c587f16e904\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\5add2045deb0158161bf7c587f16e904\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\501193c0f83e24a3fd423d84df18ee9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\501193c0f83e24a3fd423d84df18ee9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\18d076182de1d031c7d322d77a97619c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\18d076182de1d031c7d322d77a97619c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\0f00b9528e5034e65a3b0dc5b30ff30e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\0f00b9528e5034e65a3b0dc5b30ff30e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\b1f3ada2a6509bcb1a15a6c072cfc42b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\b1f3ada2a6509bcb1a15a6c072cfc42b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\f3c57d7f6a11cffd61265c75188f564f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\f3c57d7f6a11cffd61265c75188f564f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\ea111995f475d9e6e91c3eb60386a028\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\ea111995f475d9e6e91c3eb60386a028\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\ea1aeacd064ecb0c62edabec22e20439\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\ea1aeacd064ecb0c62edabec22e20439\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\b807564d23edc114d343c6443f261f6f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\b807564d23edc114d343c6443f261f6f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\d284be7f6b9dc18953b294a857e9aac0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\d284be7f6b9dc18953b294a857e9aac0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\b52995dfa2433c5713f8b29dca98c586\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\b52995dfa2433c5713f8b29dca98c586\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\224aa959f863fa1ed5767aff194acd38\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\224aa959f863fa1ed5767aff194acd38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\88e7a94e93fd61621a873246121bde11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\AYAN\.gradle\caches\transforms-2\files-2.1\88e7a94e93fd61621a873246121bde11\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\AYAN\AndroidStudioProjects\FlutterApp\CustomAlertDialog\app\src\main\AndroidManifest.xml
